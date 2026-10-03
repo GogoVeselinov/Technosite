@@ -1,0 +1,44 @@
+{
+  "_comment": "Single source of truth for all service prices. Run: node scripts/sync-prices.mjs after editing.",
+
+  "pc_cleaning":           { "min": 30,  "max": 45,  "unit": "EUR" },
+  "laptop_cleaning":       { "min": 40,  "max": 65,  "unit": "EUR" },
+  "hw_diagnostics":        { "min": 20,  "max": 30,  "unit": "EUR" },
+  "config_selection":      { "min": 20,  "max": 35,  "unit": "EUR" },
+  "custom_build":          { "fixed": 75,            "unit": "EUR" },
+  "ssd_ram_install":       { "min": 15,  "max": 30,  "unit": "EUR" },
+
+  "windows_clean":         { "fixed": 50,            "unit": "EUR" },
+  "windows_backup":        { "min": 60,  "max": 90,  "unit": "EUR" },
+  "drivers":               { "min": 15,  "max": 30,  "unit": "EUR" },
+  "apps_install":          { "min": 15,  "max": 25,  "unit": "EUR" },
+  "sw_diagnostics":        { "min": 25,  "max": 50,  "unit": "EUR" },
+  "linux":                 { "min": 35,  "max": 60,  "unit": "EUR" },
+
+  "file_transfer":         { "min": 25,  "max": 50,  "unit": "EUR" },
+  "ssd_clone":             { "min": 35,  "max": 60,  "unit": "EUR" },
+  "backup_setup":          { "min": 30,  "max": 60,  "unit": "EUR" },
+  "malware":               { "min": 25,  "max": 60,  "unit": "EUR" },
+
+  "wifi_router":           { "min": 25,  "max": 45,  "unit": "EUR" },
+  "mesh":                  { "min": 40,  "max": 80,  "unit": "EUR" },
+  "printer_scanner":       { "min": 15,  "max": 30,  "unit": "EUR" },
+  "remote_help":           { "min": 15,  "max": 25,  "unit": "EUR" },
+  "onsite_visit":          { "min": 30,  "max": 50,  "unit": "EUR" },
+  "office_review":         { "min": 50,  "max": 100, "unit": "EUR" },
+
+  "website_onepage":       { "min": 250, "max": 350, "unit": "EUR" },
+  "website_company":       { "min": 250, "max": 950, "unit": "EUR" },
+  "website_company_approx":{ "min": 350, "max": 650, "unit": "EUR" },
+  "website_maintenance":   { "min": 25,  "max": 60,  "unit": "EUR", "per": "мес." },
+  "website_hourly":        { "min": 20,  "max": 60,  "unit": "EUR", "per": "ч." },
+  "domain_setup":          { "min": 25,  "max": 50,  "unit": "EUR" },
+  "website_transfer":      { "min": 40,  "max": 90,  "unit": "EUR" },
+  "seo_technical":         { "min": 60,  "max": 120, "unit": "EUR" },
+  "maintenance_starter":   { "fixed": 25,            "unit": "EUR", "per": "мес." },
+  "maintenance_standard":  { "fixed": 40,            "unit": "EUR", "per": "мес." },
+  "maintenance_adv":       { "fixed": 60,            "unit": "EUR", "per": "мес." },
+
+  "nas_setup":             { "min": 100, "max": 200, "unit": "EUR" },
+  "business_sub":          { "min": 100, "max": 200, "unit": "EUR", "per": "мес." }
+}

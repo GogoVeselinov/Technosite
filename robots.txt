@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nexorasupport.org/sitemap.xml
+
+# Replace DOMAIN.bg with the actual domain before deploying.

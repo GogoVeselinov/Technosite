@@ -3,16 +3,42 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Nexora — IT сервиз, сайтове и поддръжка</title>
-    <meta
-      name="description"
-      content="IT сервиз и уеб услуги за частни клиенти и малки фирми."
-    />
-    <meta name="theme-color" content="#0a1d27" />
+    <title>IT сервиз и изработка на сайтове | Nexora</title>
+    <meta name="description" content="Nexora — IT сервиз, компютърна диагностика, инсталация на Windows 11, изработка на сайтове и IT поддръжка за малки фирми." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://nexorasupport.org/" />
+    <meta name="theme-color" content="#142e30" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nexorasupport.org/" />
+    <meta property="og:title" content="IT сервиз и изработка на сайтове | Nexora" />
+    <meta property="og:description" content="Nexora — IT сервиз, компютърна диагностика, инсталация на Windows 11, изработка на сайтове и IT поддръжка за малки фирми." />
+    <meta property="og:image" content="https://nexorasupport.org/assets/img/og-image.jpg" />
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="IT сервиз и изработка на сайтове | Nexora" />
+    <meta name="twitter:description" content="Nexora — IT сервиз, компютърна диагностика, инсталация на Windows 11, изработка на сайтове и IT поддръжка за малки фирми." />
+    <meta name="twitter:image" content="https://nexorasupport.org/assets/img/og-image.jpg" />
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="assets/css/styles.css" />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-<link rel="stylesheet" href="assets/css/refresh.css" />
-</head>
+    <link rel="stylesheet" href="assets/css/refresh.css" />
+
+    <!-- Structured data: ProfessionalService -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Nexora",
+      "description": "IT сервиз, компютърна диагностика, изработка на сайтове и IT поддръжка за малки фирми.",
+      "url": "https://nexorasupport.org/",
+      "logo": "https://nexorasupport.org/assets/favicon.svg",
+      "areaServed": "BG",
+      "serviceType": ["IT сервиз", "Компютърен сервиз", "Изработка на сайтове", "IT поддръжка"]
+    }
+    </script>
+  </head>
   <body>
 <a class="skip-link" href="#main-content">Към съдържанието</a>
     <header class="site-header">
@@ -150,18 +176,22 @@
           </div>
           <div class="quick-price-grid">
             <article>
-              <span>Почистване на PC</span><strong>30–45€</strong>
-            </article>
-            <article><span>Windows 11</span><strong>35–50€</strong></article>
-            <article>
-              <span>Wi‑Fi настройка</span><strong>25–45€</strong>
-            </article>
-            <article><span>Фирмен сайт</span><strong>350–650€</strong></article>
-            <article>
-              <span>Поддръжка на сайт</span><strong>25–60€/мес.</strong>
+              <span>Почистване на PC</span><strong><span data-price="pc_cleaning">30–45€</span></strong>
             </article>
             <article>
-              <span>NAS настройка</span><strong>100–200€</strong>
+              <span>Windows 11</span><strong><span data-price="windows_clean">50€</span></strong>
+            </article>
+            <article>
+              <span>Wi‑Fi настройка</span><strong><span data-price="wifi_router">25–45€</span></strong>
+            </article>
+            <article>
+              <span>Фирмен сайт</span><strong><span data-price="website_company_approx">350–650€</span></strong>
+            </article>
+            <article>
+              <span>Поддръжка на сайт</span><strong><span data-price="website_maintenance">25–60€/мес.</span></strong>
+            </article>
+            <article>
+              <span>NAS настройка</span><strong><span data-price="nas_setup">100–200€</span></strong>
             </article>
           </div>
         </div>
